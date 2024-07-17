@@ -1,0 +1,9 @@
+google-generativeai==0.7.2
+fastapi==0.111.1
+python-dotenv==1.0.1
+
+# Web
+streamlit==1.36.0
+
+# Dev
+black==24.4.2

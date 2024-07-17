@@ -1,0 +1,15 @@
+POST https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?
+    key=AIzaSyDiWPENKBRQiC_JqUGWxH7ypSeoQOQLk5M
+Content-Type: application/json
+
+{
+  "contents": [
+    {
+      "parts": [
+        {
+          "text": "한식 중식 양식 일식 외에 다른 음식 종류를 대표적인 걸로 알려줘"
+        }
+      ]
+    }
+  ]
+}
