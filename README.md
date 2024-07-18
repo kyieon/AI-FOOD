@@ -6,5 +6,3 @@ Using Gemini API KEY
 
 #DEV
 streamlit run src/app.py --server.port=8501
-
-# https://ai-food-yjlee.streamlit.app/
