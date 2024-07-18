@@ -10,6 +10,15 @@ load_dotenv()
 API_KEY = os.environ.get("API_KEY")
 gemini.configure(api_key=API_KEY)
 
+hide = """
+<style>
+div[data-testid="stConnectionStatus"] {
+    display: none !important;
+</style>
+"""
+
+st.markdown(hide, unsafe_allow_html=True)
+
 
 @st.cache_resource
 def load_model():
